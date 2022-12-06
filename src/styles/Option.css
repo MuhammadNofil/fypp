@@ -1,0 +1,6 @@
+.card-body h3{
+    border: 1px solid rgb(179, 160, 160);
+    border-radius: 10px;    
+    box-shadow: 10px;
+    cursor: pointer;
+}

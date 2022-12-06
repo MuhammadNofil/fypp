@@ -1,0 +1,22 @@
+.body_login {
+  position: absolute;
+  color: #080808;
+  background-color: #ffc017;
+  height: 100%;
+  width: 100%;
+}
+
+.para_color {
+  color: hsl(217, 10%, 50.8%);
+}
+.btn.btn-outline-twitter {
+  background: transparent;
+  border: 1px solid #69b6f0;
+  color: #69b6f0;
+  padding: 10px;
+}
+.btn.btn-outline-twitter:hover {
+  background: transparent;
+  border: 2px solid #69b6f0;
+  color: #69b6f0;
+}
