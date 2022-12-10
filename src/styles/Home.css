@@ -1,7 +1,7 @@
 .body_home {
   position: absolute;
-  color: #080808;
-  background-color: #ffc017;
+  color: #fff;
+  background-color: #09213a;
   height: 100%;
   width: 100%;
 }
@@ -12,9 +12,14 @@ img {
 }
 h1 {
   font-size: 8rem;
+  color: #5090d3;
 }
 p {
   font-size: 2rem;
+  color: #000;
+}
+.btn {
+  background-color: #5090d3;
 }
 
 /* @media only screen and (max-width: 600px) {

@@ -5,9 +5,17 @@
   height: 100%;
   width: 100%;
 }
-
+.card-body {
+  background-color: rgb(241, 241, 241);
+}
 .para_color {
-  color: hsl(217, 10%, 50.8%);
+  color: #fff;
+}
+label {
+  color: #080808;
+}
+p {
+  color: #080808;
 }
 .btn.btn-outline-twitter {
   background: transparent;
