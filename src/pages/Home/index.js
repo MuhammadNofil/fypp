@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/Home.css";
 import Logo from "../../assets/images/logo.png";
 // import FlatButton from '../../components/shared/button/button'
-import "../../styles/Button.css";
+// import "../../styles/Button.css";
 const Home = () => {
   return (
     <>
@@ -13,12 +13,12 @@ const Home = () => {
         <div className="container pt-5 ">
           <h1 className="d-flex justify-content-start pt-3">Welcome</h1>
           <p className="d-flex justify-content-start pt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, rem
+            voluptas. Quam repellat perspiciatis quisquam est voluptates.
+            Reprehenderit, numquam consequuntur!
           </p>
           <div className="pt-5">
-            <a href="/">
-              <span> GET STARTED</span>
-            </a>
+            <button className="btn btn-lg w-25">GET STARTED</button>
           </div>
         </div>
       </div>

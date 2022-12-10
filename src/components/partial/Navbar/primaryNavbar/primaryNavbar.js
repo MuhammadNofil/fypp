@@ -1,27 +1,32 @@
-import React from 'react'
-import { FaSearch } from "react-icons/fa";
+import React from "react";
+import { FaSearch, FaUser } from "react-icons/fa";
 const primaryNavbar = () => {
   return (
     <>
-    <nav className="navbar navbar-light bg-dark">
-  <div className="container-fluid">
-    <a className="navbar-brand"><h3 className='text-white'>Company Name</h3></a>
-    <form className="d-flex input-group w-auto">
-      <input
-        type="search"
-        className="form-control rounded"
-        placeholder="Search"
-        aria-label="Search"
-        aria-describedby="search-addon"
-      />
-      <span className="input-group-text border-0" id="search-addon">
-       <FaSearch/>
-      </span>
-    </form>
-  </div>
-</nav>
+      <nav className="navbar navbar-light bg-dark">
+        <div className="container">
+          <a className="navbar-brand">
+            <h3 className="text-white">Company Name</h3>
+          </a>
+          <form className="d-flex input-group w-auto">
+            <input
+              type="search"
+              className="form-control rounded"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+            <span className="input-group-text border-0" id="search-addon">
+              <FaSearch />
+            </span>
+            <span className="input-group-text border-0 ms-3" id="search-addon">
+              <FaUser />
+            </span>
+          </form>
+        </div>
+      </nav>
     </>
-  )
-}
+  );
+};
 
-export default primaryNavbar
+export default primaryNavbar;
