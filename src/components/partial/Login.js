@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Login.css";
 import { FaFacebookF, FaGooglePlusG } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Login = ({ handleOpen }) => {
   //   const SubmitHandler = (e) => {
   //     e.preventDefault();
@@ -9,7 +10,7 @@ const Login = ({ handleOpen }) => {
   return (
     <>
       <div className="body_login">
-        <div className="px-4 py-5 px-md-5 text-center text-lg-start ">
+        <div className="px-4  px-md-5 text-center text-lg-start ">
           <div className="container">
             <div className="row gx-lg-5 align-items-center">
               <div className="col-lg-6 mb-5 mb-lg-0">
@@ -80,16 +81,19 @@ const Login = ({ handleOpen }) => {
                           Login
                         </button>
                       </div>
-                      <div className="text-center">
-                        <p>or sign up with</p>
+                      <div className="text-center login-text" >
+                        {/* <p>or sign up with</p> */}
+                        <h4>
+                          No account?<Link to="/signup"> Create one</Link>
+                        </h4>
                       </div>
-                      <div className="text-center">
-                        <button
+                      <div className="text-center login-icon">
+                        {/* <button
                           type="button"
                           className="btn btn-dark  btn-floating mx-1 w-25"
                         >
-                          <span>
-                            <FaFacebookF /> Facebook{" "}
+                          <span className="">
+                            <FaFacebookF /> Facebook
                           </span>
                         </button>
                         <button
@@ -97,10 +101,17 @@ const Login = ({ handleOpen }) => {
                           className="btn btn-dark btn-floating mx-1 w-25"
                         >
                           <span className="mr-1">
-                            {" "}
                             <FaGooglePlusG /> gmail
                           </span>
-                        </button>
+                        </button> */}
+                        <div>
+                          <span>
+                            <FaFacebookF />
+                          </span>
+                          <span>
+                            <FaGooglePlusG />
+                          </span>
+                        </div>
                       </div>
                     </form>
                   </div>

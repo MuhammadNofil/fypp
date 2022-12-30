@@ -7,6 +7,7 @@ import Options from "../pages/Options/Options";
 import CreateTextPost from "../pages/CreatePost/Createpost";
 import TextFeed from "../pages/Feed/Feed";
 import TextEditorAnswer from "../pages/AnswerPage/Answer";
+import Dashboard from "../components/Dashboard";
 export default function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
         <Route exact path="/Options" element={<Options />} />
         <Route exact path="/CreateTextPost" element={<CreateTextPost />} />
         <Route exact path="/Feed" element={<TextFeed />} />

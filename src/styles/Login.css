@@ -1,9 +1,11 @@
 .body_login {
-  position: absolute;
-  color: #080808;
-  background-color: #ffc017;
-  height: 100%;
   width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: var(--main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-body {
   background-color: rgb(241, 241, 241);
@@ -27,4 +29,36 @@ p {
   background: transparent;
   border: 2px solid #69b6f0;
   color: #69b6f0;
+}
+.login-icon {
+  display: flex;
+  justify-content: center;
+}
+.login-icon > div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.login-icon > div >span{
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.225);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-icon > div >span:hover{
+  background-color: var(--main);
+  box-shadow: 0px 0px 5px 1px rgba(7, 51, 248, 0.225);
+  color: var(--white);
+}
+.login-text{
+  margin-bottom: 20px;
+}
+.login-text > h4{
+  font-size: 1.2rem;
 }

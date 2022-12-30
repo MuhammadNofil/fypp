@@ -1,5 +1,18 @@
 @font-face {
-    font-family: "transitional serif typeface";   /*Can be any text*/
-    src: local("Cambria-Font-For-Windows"),
-      url("../src/assets/fonts/Cambria-Font-For-Windows.ttf") format("truetype");
-  }
+  font-family: "transitional serif typeface"; /*Can be any text*/
+  src: local("Cambria-Font-For-Windows"),
+    url("../src/assets/fonts/Cambria-Font-For-Windows.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+
+:root{
+  --main:#09213a;
+  --white:#fff;
+}

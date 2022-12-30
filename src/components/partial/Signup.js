@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/Signup.css";
 const Signup = () => {
   return (
     <>
-      <div className="px-4 py-5 px-md-5 text-center text-lg-start main body_login">
+      <div className="px-4  px-md-5 text-center text-lg-start main body_login">
         <div className="container">
           <div className="row gx-lg-5 align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0">
@@ -83,6 +84,12 @@ const Signup = () => {
                         Register
                       </button>
                     </div>
+                    <div className="text-center login-text" >
+                        {/* <p>or sign up with</p> */}
+                        <h4>
+                        Already have an account? <Link to="/login"> Sign in</Link>
+                        </h4>
+                      </div>
                   </form>
                 </div>
               </div>

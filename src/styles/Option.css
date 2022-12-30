@@ -1,9 +1,9 @@
 .main {
-  position: absolute;
+  /* position: absolute;
   color: #fff;
   background-color: #09213a;
   height: 100%;
-  width: 100%;
+  width: 100%; */
 }
 .card-body {
   background-color: rgb(248, 244, 244);
@@ -16,7 +16,7 @@
   margin: 15px;
   border: 1px solid rgb(20, 16, 16);
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 25px; 
   cursor: pointer;
 }
 .card-body h3:hover {
