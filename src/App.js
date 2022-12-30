@@ -1,11 +1,9 @@
 import "./App.css";
-import Routes from "./Routes/index";
-import Compiler from "../src/components/partial/Compiler/index";
+import Routes from "./Routes/Routes";
 function App() {
   return (
     <>
       <Routes />
-      {/* <Compiler /> */}
     </>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import "../../../styles/Login.css";
+import "../../styles/Login.css";
 import { FaFacebookF, FaGooglePlusG } from "react-icons/fa";
-const LoginForm = ({ handleOpen }) => {
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-    handleOpen();
-  };
+const Login = ({ handleOpen }) => {
+  //   const SubmitHandler = (e) => {
+  //     e.preventDefault();
+  //     handleOpen();
+  //   };
   return (
     <>
       <div className="body_login">
@@ -114,4 +114,4 @@ const LoginForm = ({ handleOpen }) => {
   );
 };
 
-export default LoginForm;
+export default Login;

@@ -1,10 +1,10 @@
 import React from "react";
-import BasicModal from "../../components/shared/modal";
+import Modal from "../../components/shared/Modal";
 import "../../styles/Option.css";
 const Options = () => {
   return (
     <>
-      <BasicModal />
+      <Modal />
       <div className="px-4 py-5 px-md-5 text-center text-lg-start main body">
         <div className="container">
           <div className="row gx-lg-5 align-items-center">

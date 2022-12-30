@@ -5,7 +5,7 @@ import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/theme-monokai";
 import "ace-builds/src-noconflict/ext-language_tools";
 
-const index = () => {
+const Compiler = () => {
   return (
     <AceEditor
       placeholder="Placeholder Text"
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Compiler;

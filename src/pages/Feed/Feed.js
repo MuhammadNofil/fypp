@@ -1,12 +1,12 @@
 import React from "react";
-import PrimaryNavbar from "../../../components/partial/Navbar/primaryNavbar/primaryNavbar";
-import Card from "../../../components/shared/Cards/index";
-import question from "../../../questions";
+import Navbar from "../../components/partial/Navbar";
+import Card from "../../components/shared/Cards";
+import question from "../../questions";
 
 const Feed = () => {
   return (
     <div>
-      <PrimaryNavbar></PrimaryNavbar>
+      <Navbar></Navbar>
       <div className="container-fluid ">
         <div className="row">
           <div className="col-lg-2 pt-5 ">

@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../styles/Signup.css";
-const SignupForm = () => {
+import "../../styles/Signup.css";
+const Signup = () => {
   return (
     <>
       <div className="px-4 py-5 px-md-5 text-center text-lg-start main body_login">
@@ -94,4 +94,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default Signup;

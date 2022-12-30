@@ -1,7 +1,7 @@
 import React from "react";
-import TextEditor from "../../../components/partial/TextEditor";
-import Input from "../../../components/shared/input/input";
-import "../../../styles/CreateTextPost.css";
+import TextEditor from "../../components/partial/Texteditor";
+import Input from "../../components/shared/Input";
+import "../../styles/CreateTextPost.css";
 const CreateTextPost = () => {
   const option = ["programming", "Maths", "english", "history", "computer"];
   return (

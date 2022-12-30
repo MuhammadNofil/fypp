@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import Login from "../pages/Auth/Login";
-import Signup from "../pages/Auth/Signup";
-import Options from "../pages/Options";
-import CreateTextPost from "../pages/CreatePost/Text";
+import Login from "../pages/Auth/LoginForm";
+import Signup from "../pages/Auth/SignupForm";
+import Options from "../pages/Options/Options";
+import CreateTextPost from "../pages/CreatePost/Createpost";
 import TextFeed from "../pages/Feed/Feed";
-import TextEditorAnswer from "../pages/AnswerPage/TextEditorAnswer";
+import TextEditorAnswer from "../pages/AnswerPage/Answer";
 export default function App() {
   return (
     <Router>
